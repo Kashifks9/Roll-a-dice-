@@ -1,0 +1,11 @@
+import random
+class Dice :
+    def roll_dice(self):
+        numbers=[1,2,3,4,5,6]
+        return numbers
+
+
+dice = Dice()
+dice1_no = dice.roll_dice()
+dice2_no = dice.roll_dice()
+print(f"{random.choice(dice1_no)},{random.choice(dice2_no)}")
